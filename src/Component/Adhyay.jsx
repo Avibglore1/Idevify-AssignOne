@@ -8,11 +8,11 @@ function Adhyay() {
     <>
         {/* our program */}
     <div className='w-full mb-28 md:mb-36'>
-      <div className='flex flex-col justify-center items-center relative'>
+      <div className='relative flex flex-col justify-center items-center'>
         <h1 className='absolute top-1 z-10 text-4xl font-londrina text-black'>our program</h1>
         <div className='absolute top-7 w-48 h-6 md:h-8 rounded-3xl bg-[#FFCBC2]'></div>
       </div>        
-        <img src={programmesImg} className='w-[100%] mt-20'/>
+        <img src={programmesImg} className='w-full mt-20'/>
     </div>
     {/* Support */}
       <div className="bg-[url('./Images/Reinstatingdream.png')] 
@@ -36,7 +36,7 @@ function Adhyay() {
             bg-[#FFCBC2]'></div>
       </div>      
       <div className='flex flex-col md:flex-row mt-4 '>
-          <div className='flex flex-col items-center justify-center sm:w-full md:w-[50%] p-5'>
+          <div className='flex flex-col items-center justify-center sm:w-full md:w-1/2 p-5'>
             <p className='font-poppins font-semibold text-lg'>ADHYAY, meaning "chapter" in Sanskrit, symbolizes a fresh
               beginning. It is a first-of-its-kind community where former
               civil service aspirants can channel their passion and expertise
@@ -45,7 +45,7 @@ function Adhyay() {
             </p>
             <a href="#" className='text-[#FF6347] font-poppins font-semibold text-lg mt-16'>Read More <img src={arrowImg} className='inline ml-1' alt="arrow"/> </a>
           </div>
-          <img src={helpImg} alt="" className='sm:w-full md:w-[46%] ml-auto'/>
+          <img src={helpImg} alt="" className='sm:w-full md:w-1/2 ml-auto'/>
       </div>
    </div>
     </>

@@ -5,8 +5,8 @@ import Adhyay from './Component/Adhyay'
 function App() {
   return (
   <>   
-  {/* <Adhyay></Adhyay> */}
-  <Partner></Partner> 
+  <Adhyay></Adhyay>
+  {/* <Partner></Partner>  */}
   </>
   )
 }
