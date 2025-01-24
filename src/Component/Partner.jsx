@@ -1,8 +1,8 @@
 import React from 'react'
-import arrowImg from "./../Images/arrow.svg"
-import meetingImgOne from "./../Images/meetingImgOne.png"
-import meetingImgTwo from "./../Images/meetingImgTwo.png"
-import footer from "./../Images/footer.png"
+import arrowImg from "./../assets/Home/arrow.svg"
+import meetingImgOne from "./../assets/Home/meetingImgOne.png"
+import meetingImgTwo from "./../assets/Home/meetingImgTwo.png"
+import HomePosterImg from './HomePosterImg'
 
 function Partner() {
   return (
@@ -35,7 +35,7 @@ function Partner() {
           <div className='absolute -top-10 w-36 h-6 rounded-tl-none rounded-tr-3xl rounded-bl-none rounded-br-3xl
            bg-[#FFCBC2]'></div>
       </div>
-      <img src={footer} alt="footer-section" />
+      <HomePosterImg></HomePosterImg>
     </div>
     </>
   )
